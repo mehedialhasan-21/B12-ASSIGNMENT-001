@@ -16,7 +16,7 @@ body{
     padding: 50px 150px;
 }
 .nav-logo{
-    font-size: 44px;
+    font-size: 35px;
     font-weight: 700;
     color: #4E47FF;
 }
@@ -26,24 +26,25 @@ body{
     border: none;
     border-radius: 8px;
     font-family: "Raleway", sans-serif;
-    font-size: 25px;
-    padding: 12px 36px;
+    font-size: 15px;
+    padding: 10px 20px;
 }
 .primary-btn:hover{
     background-color: white;
     border: 3px solid #4E47FF;
     color: black;
-    font-size: 25px;
-    padding: 12px 36px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
     border-radius: 8px;
     font-family: "Raleway", sans-serif;
 }
 .hero-content{
     text-align: center;
-    padding: 100px 20px;
+    padding: 0px 0px 100px 0px;
 }
 .hero-title{
-    font-size: 66px;
+    font-size: 60px;
     font-family: "Raleway", sans-serif;
     color: #252432;
 }
