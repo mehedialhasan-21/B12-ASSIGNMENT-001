@@ -108,6 +108,7 @@ body{
     margin: 0px 10px;
     padding: 50px 10px;
     margin-top: 90px;
+    font-family: 'Inter', sans-serif;
 }
 
 .feedback-section-title {
@@ -164,4 +165,35 @@ body{
     font-size: 12px;
     line-height: 0;
     color: #757575;
+}
+
+/* focus section */
+
+.focus-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.focus-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.focus-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.mockup-image {
+    width: 70%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 48px;
 }
