@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="go-home">
         <!-- navbar section -->
     <div class="nav-content">
         <div class="nav-logo">Mehedi.dev</div>
@@ -26,7 +26,7 @@
     </div>
     </header>
         <!-- action section -->
-    <section class="action-section">
+    <section class="action-section" id="go-about">
         <div class="action-left-side">
             <h3 class="action-title">See It in Action</h3>
             <p class="action-subtitle">Explore the live preview and imagine your brand in this bold new look.</p>
@@ -37,7 +37,7 @@
         </div>
     </section>
         <!-- productive users section -->
-    <section class="p-user-section">
+    <section class="p-user-section" id="go-users">
         <h3 class="p-user-title">Joined Thousands of Productive Users</h3>
         <div class="p-user-item-container">
             <div class="p-user-item">
@@ -115,13 +115,40 @@
             </div>
     </section>
         <!-- focus section  -->
-    <section class="focus-section">
+    <section class="focus-section" id="go-focus">
         <h1 class="focus-title">Ready to focus better</h1>
         <p class="focus-subtitle">This template instantly leveled up our presence. ~ Studio Vertex</p>
         <button class="primary-btn">Get Started Free</button>
         <img src="Assets/wc-big.png" alt="Image" class="mockup-image">
     </section>
-        
-    
+       <!-- get in touch -->
+<section class="touch-section">
+    <div class="touch-container">
+        <h2 class="touch-title">Let’s Get in Touch</h2>
+    </div>
+    <div class="touch-container">
+        <form action="#" class="inter-style" method="POST">
+            <label class="label-title" for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            <label class="label-title" for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="full name" required>
+            <label class="label-title" for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+            <br>
+            <input class="touch-btn" type="submit" value="Get in Touch">
+        </form>
+    </div>
+</section>
+        <!-- footer section -->
+    <footer class="footer-section">
+    <h1 class="footer-logo">Mehedi.dev</h1>
+    <p class="footer-description">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+    <div class="footer-container">
+        <div class="item"><a href="#go-home">Home</a></div>
+        <div class="item"><a href="#go-about">About</a></div>
+        <div class="item"><a href="#go-focus">How it Works</a></div>
+        <div class="item"><a href="#go-users">Service</a></div>
+    </div>
+</footer>
 </body>
 </html>
